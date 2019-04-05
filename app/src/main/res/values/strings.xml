@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Books</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="retry">Retry</string>
+    <string name="loading">Loading</string>
+    <string name="search">Search</string>
+    <string name="city_name">City name</string>
+
+    <string name="navigation_forecast">Forecast</string>
+    <string name="navigation_account">Account</string>
+    <string name="add_location">Add location</string>
+    <string name="type_your_new_location">Type your new Location</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="city">City</string>
+    <string name="empty_location">Add your location to get the forecast</string>
+    <string name="wind">Wind</string>
+    <string name="humidity">Humidity</string>
+    <string name="temp">Temp</string>
+    <string name="tempMax">Temp Max</string>
+    <string name="tempMin">Temp Min</string>
+    <string name="sunrise">Sunrise</string>
+    <string name="sunset">Sunset</string>
+    <string name="books_search_hint">Search your book</string>
+    <string name="books_search_error_empty_query">Write a book\'s title to search it</string>
+    <string name="search_your_book">Search your book</string>
+    <string name="try_again">Try again</string>
+    <string name="task_list_empty">Empty data</string>
+</resources>

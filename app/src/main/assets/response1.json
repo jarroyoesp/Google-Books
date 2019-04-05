@@ -1,0 +1,900 @@
+{
+ "kind": "books#volumes",
+ "totalItems": 1224,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "uUOBPgXQtvUC",
+   "etag": "UNVYHgkACDc",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/uUOBPgXQtvUC",
+   "volumeInfo": {
+    "title": "Harry Potter y la Orden del Fénix",
+    "authors": [
+     "J.K. Rowling"
+    ],
+    "publisher": "Pottermore Publishing",
+    "publishedDate": "2015-12-08",
+    "description": "Las vacaciones de verano aún no han acabado y Harry se encuentra más inquieto que nunca. Apenas ha tenido noticias de Ron y Hermione, y presiente que algo extraño está sucediendo en Hogwarts. No bien empieza el nuevo curso, sus temores se vuelven realidad: el Ministerio de Magia ha iniciado una campaña de desprestigio contra él y Dumbledore, para lo cual ha asignado a la horrible profesora Dolores Umbridge la tarea de vigilar sus movimientos. Y por si fuera poco, Harry sospecha que Voldemort es capaz de adivinar sus pensamientos con el fin de apoderarse de un objeto secreto que le permitiría recuperar su poder destructivo.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781781101353"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1781101353"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 928,
+    "printType": "BOOK",
+    "categories": [
+     "Juvenile Fiction"
+    ],
+    "averageRating": 4.0,
+    "ratingsCount": 32,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "1.5.5.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=uUOBPgXQtvUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=uUOBPgXQtvUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "es",
+    "previewLink": "http://books.google.es/books?id=uUOBPgXQtvUC&printsec=frontcover&dq=harrypotter&hl=&cd=1&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=uUOBPgXQtvUC&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-uUOBPgXQtvUC"
+   },
+   "saleInfo": {
+    "country": "ES",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 8.99,
+     "currencyCode": "EUR"
+    },
+    "retailPrice": {
+     "amount": 8.99,
+     "currencyCode": "EUR"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=uUOBPgXQtvUC&rdid=book-uUOBPgXQtvUC&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 8990000.0,
+       "currencyCode": "EUR"
+      },
+      "retailPrice": {
+       "amountInMicros": 8990000.0,
+       "currencyCode": "EUR"
+      },
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "ES",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.es/books/download/Harry_Potter_y_la_Orden_del_F%C3%A9nix-sample-epub.acsm?id=uUOBPgXQtvUC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.es/books/download/Harry_Potter_y_la_Orden_del_F%C3%A9nix-sample-pdf.acsm?id=uUOBPgXQtvUC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=uUOBPgXQtvUC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Las vacaciones de verano aún no han acabado y Harry se encuentra más inquieto que nunca."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "uoxUloj09YEC",
+   "etag": "cPmsfd1o6fA",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/uoxUloj09YEC",
+   "volumeInfo": {
+    "title": "La irresistible ascensión de Harry Potter",
+    "authors": [
+     "Andrew Blake",
+     "Encarnación Hidalgo Tenorio"
+    ],
+    "publisher": "EDAF",
+    "publishedDate": "2005",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "844141629X"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9788441416291"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 161,
+    "printType": "BOOK",
+    "categories": [
+     "Juvenile Nonfiction"
+    ],
+    "averageRating": 5.0,
+    "ratingsCount": 3,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.0.1.0.preview.1",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=uoxUloj09YEC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=uoxUloj09YEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "es",
+    "previewLink": "http://books.google.es/books?id=uoxUloj09YEC&printsec=frontcover&dq=harrypotter&hl=&cd=2&source=gbs_api",
+    "infoLink": "http://books.google.es/books?id=uoxUloj09YEC&dq=harrypotter&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/La_irresistible_ascensi%C3%B3n_de_Harry_Pott.html?hl=&id=uoxUloj09YEC"
+   },
+   "saleInfo": {
+    "country": "ES",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "ES",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=uoxUloj09YEC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "uZDYlfDVYmEC",
+   "etag": "nON7+TIL62c",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/uZDYlfDVYmEC",
+   "volumeInfo": {
+    "title": "Harry Potter y el misterio del príncipe",
+    "authors": [
+     "J.K. Rowling"
+    ],
+    "publisher": "Pottermore Publishing",
+    "publishedDate": "2015-12-08",
+    "description": "En medio de graves acontecimientos que asolan el país, Harry inicia su sexto curso en Hogwarts. El equipo de quidditch, los exámenes y las chicas lo mantienen ocupado, pero la tranquilidad dura poco. A pesar de los férreos controles de seguridad, dos alumnos son brutalmente atacados. Dumbledore sabe que, tal como se anunciaba en la Profecía, Harry y Voldemort han de enfrentarse a muerte. Así pues, para intentar debilitar al enemigo, el anciano director y el joven mago emprenderán juntos un peligroso viaje con la ayuda de un viejo libro de pociones perteneciente a un misterioso personaje, alguien que se hace llamar Príncipe Mestizo.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781781101360"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1781101361"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 576,
+    "printType": "BOOK",
+    "categories": [
+     "Juvenile Fiction"
+    ],
+    "averageRating": 4.0,
+    "ratingsCount": 23,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "1.3.4.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=uZDYlfDVYmEC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=uZDYlfDVYmEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "es",
+    "previewLink": "http://books.google.es/books?id=uZDYlfDVYmEC&printsec=frontcover&dq=harrypotter&hl=&cd=3&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=uZDYlfDVYmEC&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-uZDYlfDVYmEC"
+   },
+   "saleInfo": {
+    "country": "ES",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 8.99,
+     "currencyCode": "EUR"
+    },
+    "retailPrice": {
+     "amount": 8.99,
+     "currencyCode": "EUR"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=uZDYlfDVYmEC&rdid=book-uZDYlfDVYmEC&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 8990000.0,
+       "currencyCode": "EUR"
+      },
+      "retailPrice": {
+       "amountInMicros": 8990000.0,
+       "currencyCode": "EUR"
+      },
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "ES",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.es/books/download/Harry_Potter_y_el_misterio_del_pr%C3%ADncipe-sample-epub.acsm?id=uZDYlfDVYmEC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.es/books/download/Harry_Potter_y_el_misterio_del_pr%C3%ADncipe-sample-pdf.acsm?id=uZDYlfDVYmEC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=uZDYlfDVYmEC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "En medio de graves acontecimientos que asolan el país, Harry inicia su sexto curso en Hogwarts."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "Aaug_RnI-xQC",
+   "etag": "mcAkHEYVoIY",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/Aaug_RnI-xQC",
+   "volumeInfo": {
+    "title": "The Irresistible Rise of Harry Potter",
+    "authors": [
+     "Andrew Blake"
+    ],
+    "publisher": "Verso",
+    "publishedDate": "2002",
+    "description": "Blake's examination of the Potter phenomenon raises serious questions about the condition of the publishing industry, filmmaking, and the ways in which the Potter consumer campaign has changed ideas about literature and reading.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "1859846661"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9781859846667"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 118,
+    "printType": "BOOK",
+    "categories": [
+     "Literary Criticism"
+    ],
+    "averageRating": 4.0,
+    "ratingsCount": 7,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.1.2.0.preview.1",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=Aaug_RnI-xQC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=Aaug_RnI-xQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.es/books?id=Aaug_RnI-xQC&printsec=frontcover&dq=harrypotter&hl=&cd=4&source=gbs_api",
+    "infoLink": "http://books.google.es/books?id=Aaug_RnI-xQC&dq=harrypotter&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/The_Irresistible_Rise_of_Harry_Potter.html?hl=&id=Aaug_RnI-xQC"
+   },
+   "saleInfo": {
+    "country": "ES",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "ES",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=Aaug_RnI-xQC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Blake&#39;s examination of the Potter phenomenon raises serious questions about the condition of the publishing industry, filmmaking, and the ways in which the Potter consumer campaign has changed ideas about literature and reading."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "ZLF2CwAAQBAJ",
+   "etag": "gs+KfmnLRbQ",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/ZLF2CwAAQBAJ",
+   "volumeInfo": {
+    "title": "Harry Potter: La Colección Completa (1-7)",
+    "authors": [
+     "J.K. Rowling"
+    ],
+    "publisher": "Pottermore Publishing",
+    "publishedDate": "2016-01-28",
+    "description": "Los siete libros electrónicos de Harry Potter, una de las series más premiadas y vendidas en todo el mundo, están ya disponibles en una única descarga con las magníficas portadas de Olly Moss. Disfruta de las historias que han despertado la imaginación de millones de lectores de todo el mundo.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781781106556"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "178110655X"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 3800,
+    "printType": "BOOK",
+    "categories": [
+     "Juvenile Fiction"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "1.6.7.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=ZLF2CwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=ZLF2CwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "es",
+    "previewLink": "http://books.google.es/books?id=ZLF2CwAAQBAJ&printsec=frontcover&dq=harrypotter&hl=&cd=5&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=ZLF2CwAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-ZLF2CwAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "ES",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 56.64,
+     "currencyCode": "EUR"
+    },
+    "retailPrice": {
+     "amount": 56.64,
+     "currencyCode": "EUR"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=ZLF2CwAAQBAJ&rdid=book-ZLF2CwAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 5.664E7,
+       "currencyCode": "EUR"
+      },
+      "retailPrice": {
+       "amountInMicros": 5.664E7,
+       "currencyCode": "EUR"
+      },
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "ES",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.es/books/download/Harry_Potter_La_Colecci%C3%B3n_Completa_1_7-sample-epub.acsm?id=ZLF2CwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.es/books/download/Harry_Potter_La_Colecci%C3%B3n_Completa_1_7-sample-pdf.acsm?id=ZLF2CwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=ZLF2CwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Los siete libros electrónicos de Harry Potter, una de las series más premiadas y vendidas en todo el mundo, están ya disponibles en una única descarga con las magníficas portadas de Olly Moss."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "2EaOj7-ozKgC",
+   "etag": "PvxIk3QQEss",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/2EaOj7-ozKgC",
+   "volumeInfo": {
+    "title": "Harry Potter y el prisionero de Azkaban",
+    "authors": [
+     "J.K. Rowling"
+    ],
+    "publisher": "Pottermore Publishing",
+    "publishedDate": "2015-12-08",
+    "description": "De la prisión de Azkaban se ha escapado un terrible villano, Sirius Black, un asesino en serie que fue cómplice de lord Voldemort y que, dicen los rumores, quiere vengarse de Harry por haber destruido a su maestro. Por si esto fuera poco, entran en acción los dementores, unos seres abominables capaces de robarles la felicidad a los magos y de eliminar todo recuerdo hermoso de aquellos que se atreven a acercárseles. El desafío es enorme, pero Harry, Ron y Hermione son capaces de enfrentarse a todo esto y mucho más.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781781101339"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1781101337"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 360,
+    "printType": "BOOK",
+    "categories": [
+     "Juvenile Fiction"
+    ],
+    "averageRating": 4.5,
+    "ratingsCount": 25,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "1.4.4.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=2EaOj7-ozKgC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=2EaOj7-ozKgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "es",
+    "previewLink": "http://books.google.es/books?id=2EaOj7-ozKgC&printsec=frontcover&dq=harrypotter&hl=&cd=6&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=2EaOj7-ozKgC&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-2EaOj7-ozKgC"
+   },
+   "saleInfo": {
+    "country": "ES",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 8.99,
+     "currencyCode": "EUR"
+    },
+    "retailPrice": {
+     "amount": 8.99,
+     "currencyCode": "EUR"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=2EaOj7-ozKgC&rdid=book-2EaOj7-ozKgC&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 8990000.0,
+       "currencyCode": "EUR"
+      },
+      "retailPrice": {
+       "amountInMicros": 8990000.0,
+       "currencyCode": "EUR"
+      },
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "ES",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.es/books/download/Harry_Potter_y_el_prisionero_de_Azkaban-sample-epub.acsm?id=2EaOj7-ozKgC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.es/books/download/Harry_Potter_y_el_prisionero_de_Azkaban-sample-pdf.acsm?id=2EaOj7-ozKgC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=2EaOj7-ozKgC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "De la prisión de Azkaban se ha escapado un terrible villano, Sirius Black, un asesino en serie que fue cómplice de lord Voldemort y que, dicen los rumores, quiere vengarse de Harry por haber destruido a su maestro."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "DKcWE3WXoj8C",
+   "etag": "+4UMA0hIJPU",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/DKcWE3WXoj8C",
+   "volumeInfo": {
+    "title": "Harry Potter and International Relations",
+    "authors": [
+     "Daniel H. Nexon",
+     "Iver B. Neumann"
+    ],
+    "publisher": "Rowman & Littlefield",
+    "publishedDate": "2006",
+    "description": "Drawing on a range of historical and sociological sources, this work shows how aspects of Harry's world contain aspects of our own. It also includes chapters on the political economy of the franchise, and on the problems of studying popular culture.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "0742539598"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780742539594"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 245,
+    "printType": "BOOK",
+    "categories": [
+     "Literary Criticism"
+    ],
+    "averageRating": 4.0,
+    "ratingsCount": 7,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=DKcWE3WXoj8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=DKcWE3WXoj8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.es/books?id=DKcWE3WXoj8C&printsec=frontcover&dq=harrypotter&hl=&cd=7&source=gbs_api",
+    "infoLink": "http://books.google.es/books?id=DKcWE3WXoj8C&dq=harrypotter&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/Harry_Potter_and_International_Relations.html?hl=&id=DKcWE3WXoj8C"
+   },
+   "saleInfo": {
+    "country": "ES",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "ES",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.es/books/download/Harry_Potter_and_International_Relations-sample-pdf.acsm?id=DKcWE3WXoj8C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=DKcWE3WXoj8C&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Drawing on a range of historical and sociological sources, this work shows how aspects of Harry&#39;s world contain aspects of our own."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "zl13g5uRM4EC",
+   "etag": "89/sg3sll2I",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/zl13g5uRM4EC",
+   "volumeInfo": {
+    "title": "Harry Potter y la cámara secreta",
+    "authors": [
+     "J.K. Rowling"
+    ],
+    "publisher": "Pottermore Publishing",
+    "publishedDate": "2015-12-08",
+    "description": "Mientras Harry espera impaciente en casa de sus insoportables tíos el inicio del segundo curso del Colegio Hogwarts de Magia y Hechicería, un elfo aparece en su habitación y le advierte de que una amenaza mortal se cierne sobre la escuela. Harry no se lo piensa dos veces y, acompañado de Ron, se dirige a Hogwarts en un coche volador. Allí, Harry oye extraños susurros en los pasillos desiertos y, de pronto... los ataques comienzan. La siniestra predicción del elfo parece hacerse realidad.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781781101322"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1781101329"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 296,
+    "printType": "BOOK",
+    "categories": [
+     "Juvenile Fiction"
+    ],
+    "averageRating": 4.0,
+    "ratingsCount": 38,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "1.4.4.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=zl13g5uRM4EC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=zl13g5uRM4EC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "es",
+    "previewLink": "http://books.google.es/books?id=zl13g5uRM4EC&printsec=frontcover&dq=harrypotter&hl=&cd=8&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=zl13g5uRM4EC&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-zl13g5uRM4EC"
+   },
+   "saleInfo": {
+    "country": "ES",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 8.99,
+     "currencyCode": "EUR"
+    },
+    "retailPrice": {
+     "amount": 8.99,
+     "currencyCode": "EUR"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=zl13g5uRM4EC&rdid=book-zl13g5uRM4EC&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 8990000.0,
+       "currencyCode": "EUR"
+      },
+      "retailPrice": {
+       "amountInMicros": 8990000.0,
+       "currencyCode": "EUR"
+      },
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "ES",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.es/books/download/Harry_Potter_y_la_c%C3%A1mara_secreta-sample-epub.acsm?id=zl13g5uRM4EC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.es/books/download/Harry_Potter_y_la_c%C3%A1mara_secreta-sample-pdf.acsm?id=zl13g5uRM4EC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=zl13g5uRM4EC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Mientras Harry espera impaciente en casa de sus insoportables tíos el inicio del segundo curso del Colegio Hogwarts de Magia y Hechicería, un elfo aparece en su habitación y le advierte de que una amenaza mortal se cierne sobre la ..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "s-JNDgAAQBAJ",
+   "etag": "o15RV2mqms8",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/s-JNDgAAQBAJ",
+   "volumeInfo": {
+    "title": "Animales fantásticos y dónde encontrarlos",
+    "authors": [
+     "J.K. Rowling"
+    ],
+    "publisher": "Pottermore Publishing",
+    "publishedDate": "2017-03-22",
+    "description": "Desde su publicación, la obra maestra de Newt Scamander ha sido un manual de lectura obligada en el Colegio Hogwarts de Magia y Hechicería, además de servir de entretenimiento a generaciones enteras de magos. Animales fantásticos y dónde encontrarlos ofrece una introducción indispensable a las criaturas mágicas del mundo de los magos. Los años que Scamander dedicó a viajar e investigar dieron lugar a un volumen de importancia sin igual. Algunos de los animales, como el hipogrifo, el basilisco o el colacuerno húngaro resultarán ya conocidos a los lectores de los libros de Harry Potter. Otros, en cambio, sorprenderán hasta al aficionado magizoólogo más entusiasta. Adéntrate en sus páginas para descubrir los curiosos hábitos de animales fantásticos procedentes de los cinco continentes... Los beneficios que origine la venta de esta edición se destinarán a dos organizaciones benéficas, Comic Relief y Lumos (esta última fundada por la propia J. K. Rowling), cuyo objetivo es mejorar la vida de algunos de los niños y jóvenes más vulnerables del mundo. Comic Relief gestionará el 20 % del dinero, y Lumos, el 80 %.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781781109151"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "178110915X"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 128,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "1.5.5.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=s-JNDgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=s-JNDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "es",
+    "previewLink": "http://books.google.es/books?id=s-JNDgAAQBAJ&printsec=frontcover&dq=harrypotter&hl=&cd=9&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=s-JNDgAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-s-JNDgAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "ES",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 5.99,
+     "currencyCode": "EUR"
+    },
+    "retailPrice": {
+     "amount": 5.99,
+     "currencyCode": "EUR"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=s-JNDgAAQBAJ&rdid=book-s-JNDgAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 5990000.0,
+       "currencyCode": "EUR"
+      },
+      "retailPrice": {
+       "amountInMicros": 5990000.0,
+       "currencyCode": "EUR"
+      },
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "ES",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.es/books/download/Animales_fant%C3%A1sticos_y_d%C3%B3nde_encontrar-sample-epub.acsm?id=s-JNDgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.es/books/download/Animales_fant%C3%A1sticos_y_d%C3%B3nde_encontrar-sample-pdf.acsm?id=s-JNDgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=s-JNDgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Animales fantásticos y dónde encontrarlos ofrece una introducción indispensable a las criaturas mágicas del mundo de los magos. Los años que Scamander dedicó a viajar e investigar dieron lugar a un volumen de importancia sin igual."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "-__ICQemqaEC",
+   "etag": "VEj1/eimd3c",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/-__ICQemqaEC",
+   "volumeInfo": {
+    "title": "Reading Harry Potter",
+    "subtitle": "Critical Essays",
+    "authors": [
+     "Giselle Liza Anatol"
+    ],
+    "publisher": "Greenwood Publishing Group",
+    "publishedDate": "2003",
+    "description": "The tropes and themes of J. K. Rowling's massively popular series are interpreted within the context of its audience.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "0313320675"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780313320675"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 217,
+    "printType": "BOOK",
+    "categories": [
+     "Literary Criticism"
+    ],
+    "averageRating": 5.0,
+    "ratingsCount": 8,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.1.2.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=-__ICQemqaEC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=-__ICQemqaEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.es/books?id=-__ICQemqaEC&printsec=frontcover&dq=harrypotter&hl=&cd=10&source=gbs_api",
+    "infoLink": "http://books.google.es/books?id=-__ICQemqaEC&dq=harrypotter&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/Reading_Harry_Potter.html?hl=&id=-__ICQemqaEC"
+   },
+   "saleInfo": {
+    "country": "ES",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "ES",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.es/books/download/Reading_Harry_Potter-sample-epub.acsm?id=-__ICQemqaEC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.es/books/download/Reading_Harry_Potter-sample-pdf.acsm?id=-__ICQemqaEC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=-__ICQemqaEC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "The tropes and themes of J. K. Rowling&#39;s massively popular series are interpreted within the context of its audience."
+   }
+  }
+ ]
+}
