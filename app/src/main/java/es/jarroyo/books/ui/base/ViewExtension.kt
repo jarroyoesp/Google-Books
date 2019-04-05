@@ -74,8 +74,8 @@ fun AppCompatActivity.snackBar(message: String, onClickListener: View.OnClickLis
     textView.setTextColor(ContextCompat.getColor(this, R.color.white))
 
     // Action
-    //snack.setAction(getString(R.string.undo), onClickListener)
-    //snack.setActionTextColor(ContextCompat.getColor(this, R.color.colorPrimary))
+    snack.setAction(getString(R.string.retry), onClickListener)
+    snack.setActionTextColor(ContextCompat.getColor(this, R.color.colorPrimary))
     snack.show()
 }
 

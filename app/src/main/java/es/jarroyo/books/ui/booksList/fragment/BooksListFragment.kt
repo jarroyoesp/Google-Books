@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.SearchView
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
@@ -18,6 +19,7 @@ import es.jarroyo.books.app.navigator.Navigator
 import es.jarroyo.books.domain.model.Response
 import es.jarroyo.books.domain.model.books.BooksListResponse
 import es.jarroyo.books.ui.base.BaseFragment
+import es.jarroyo.books.ui.base.snackBar
 import es.jarroyo.books.ui.base.toast
 import es.jarroyo.books.ui.booksList.fragment.adapter.BooksListRVAdapter
 import es.jarroyo.books.ui.viewmodel.books.*
@@ -39,6 +41,8 @@ class BooksListFragment : BaseFragment() {
 
     @Inject
     lateinit var navigator: Navigator
+
+    private var mCurrentQuery: String = ""
 
     override fun setupInjection(applicationComponent: ApplicationComponent) {
         applicationComponent.plus(BooksListFragmentModule(this)).injectTo(this)
@@ -110,7 +114,12 @@ class BooksListFragment : BaseFragment() {
 
     private fun showError(errorGetForecastState: ErrorGetBooksListState) {
         val error = errorGetForecastState.response as Response.Error
-        toast(error.exception.message)
+        (activity as AppCompatActivity).snackBar(error.exception.message.toString(), onClickListener = object : View.OnClickListener{
+            override fun onClick(p0: View?) {
+                getData(mCurrentQuery)
+            }
+
+        })
     }
 
     private fun hideError(){
@@ -118,9 +127,17 @@ class BooksListFragment : BaseFragment() {
     }
 
     private fun showBooksList(booksListResponse: BooksListResponse) {
-        fragment_books_list_layout_empty.visibility = View.GONE
-        mRvAdapter?.setBookList(booksListResponse.items)
-        mRvAdapter?.notifyDataSetChanged()
+        if (booksListResponse == null || booksListResponse.items.isNullOrEmpty()) {
+            fragment_books_list_swipe_refresh_rv.visibility = View.GONE
+            fragment_books_list_layout_empty.visibility = View.VISIBLE
+            fragment_books_list_layout_tv_status.text = getString(R.string.books_search_not_found)
+        } else {
+
+            fragment_books_list_swipe_refresh_rv.visibility = View.VISIBLE
+            fragment_books_list_layout_empty.visibility = View.GONE
+            mRvAdapter?.setBookList(booksListResponse.items)
+            mRvAdapter?.notifyDataSetChanged()
+        }
     }
 
     /**
@@ -155,6 +172,7 @@ class BooksListFragment : BaseFragment() {
                 if (text.isNullOrEmpty()) {
                     toast(getString(R.string.books_search_error_empty_query))
                 } else {
+                    mCurrentQuery = text
                     getData(text)
                 }
                 return false
