@@ -54,14 +54,4 @@ abstract class BaseActivity : AppCompatActivity() {
         navigator.currentActivity = null
         super.onPause()
     }
-
-    /*override fun onStop() {
-        super.onStop()
-        navigator.currentActivity = null
-    }
-
-    override fun onDestroy() {
-        super.onDestroy()
-        navigator.currentActivity = null
-    }*/
 }

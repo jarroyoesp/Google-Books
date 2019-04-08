@@ -48,6 +48,9 @@ class Navigator {
         var bundle = Bundle()
         bundle.putSerializable(BookDetailsActivity.ARG_EXTRA_BOOK, book)
 
+        // If we use Transitions there is a LeakMemory
+        // https://github.com/square/leakcanary/issues/1081
+        // IF not options are passed then the leak is not presented
 
         val p1 = Pair<View, String>(viewIVTransition, "transitionIVDetails")
         val options = ActivityOptionsCompat.makeSceneTransitionAnimation(currentActivity!!, p1)
