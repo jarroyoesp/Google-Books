@@ -11,7 +11,7 @@ import javax.inject.Singleton
 import kotlin.coroutines.CoroutineContext
 
 @Module
-class UtilsModule {
+class TestUtilsModule {
     @Provides
     @Singleton
     fun provideNetworkSystem(app: App) =

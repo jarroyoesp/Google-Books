@@ -2,10 +2,10 @@ package es.jarroyo.books.data.source.network
 
 import android.content.Context
 import com.jakewharton.retrofit2.adapter.kotlin.coroutines.CoroutineCallAdapterFactory
-import com.microhealth.lmc.utils.NetworkSystemAbstract
 import es.jarroyo.books.BuildConfig
 import es.jarroyo.books.domain.model.Response
 import es.jarroyo.books.domain.model.books.BooksListResponse
+import es.jarroyo.books.utils.NetworkSystemAbstract
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
@@ -13,7 +13,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 import java.io.IOException
 
 
-class NetworkDataSource(context: Context, private val networkSystem: NetworkSystemAbstract) : INetworkDataSource(networkSystem) {
+class NetworkDataSource(val context: Context, private val networkSystem: NetworkSystemAbstract) : INetworkDataSource(networkSystem) {
 
     /**
      * GET BOOKS LIST

@@ -1,6 +1,7 @@
 package es.jarroyo.books.ui.booksList.fragment
 
 
+import android.content.Context
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -22,6 +23,7 @@ import es.jarroyo.books.ui.base.BaseFragment
 import es.jarroyo.books.ui.base.snackBar
 import es.jarroyo.books.ui.base.toast
 import es.jarroyo.books.ui.booksList.fragment.adapter.BooksListRVAdapter
+import es.jarroyo.books.ui.booksList.fragment.adapter.ItemBook
 import es.jarroyo.books.ui.viewmodel.books.*
 import kotlinx.android.synthetic.main.fragment_books_list.*
 import javax.inject.Inject
@@ -44,8 +46,15 @@ class BooksListFragment : BaseFragment() {
 
     private var mCurrentQuery: String = ""
 
+    private var mListener: OnFragmentListener? = null
+
     override fun setupInjection(applicationComponent: ApplicationComponent) {
         applicationComponent.plus(BooksListFragmentModule(this)).injectTo(this)
+    }
+
+    override fun onAttach(context: Context?) {
+        super.onAttach(context)
+        mListener = context as OnFragmentListener
     }
 
     override fun onCreateView(
@@ -154,7 +163,8 @@ class BooksListFragment : BaseFragment() {
 
         mRvAdapter = BooksListRVAdapter(
             listenerBookClicked = {
-                navigator.toBookDetailsActivity(it.book, it.itemView.findViewById(R.id.item_rv_book_iv_avatar))
+                mListener?.onClickBook(it)
+                //navigator.toBookDetailsActivity(it.book, it.itemView.findViewById(R.id.item_rv_book_iv_avatar))
             }
         )
 
@@ -183,6 +193,10 @@ class BooksListFragment : BaseFragment() {
             }
 
         })
+    }
+
+    interface OnFragmentListener{
+        fun onClickBook(itemBook: ItemBook)
     }
 
 }

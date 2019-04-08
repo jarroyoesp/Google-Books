@@ -1,4 +1,4 @@
-package com.microhealth.lmc.utils
+package es.jarroyo.books.utils
 
 import android.content.Context
 import android.net.ConnectivityManager

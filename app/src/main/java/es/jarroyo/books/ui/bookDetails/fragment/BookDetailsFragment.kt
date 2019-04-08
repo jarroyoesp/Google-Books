@@ -6,11 +6,13 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import butterknife.OnClick
 import es.jarroyo.books.R
 import es.jarroyo.books.app.di.component.ApplicationComponent
 import es.jarroyo.books.domain.model.books.Item
 import es.jarroyo.books.ui.base.BaseFragment
 import es.jarroyo.books.ui.base.loadRoundedUrl
+import es.jarroyo.books.utils.Utils
 import kotlinx.android.synthetic.main.fragment_book_details.*
 
 class BookDetailsFragment : BaseFragment() {
@@ -61,8 +63,31 @@ class BookDetailsFragment : BaseFragment() {
 
             fragment_book_details_iv_project.loadRoundedUrl(context!!,url)
         }
+
+        // TITLE & DESCRIPTION
         fragment_book_details_tv_title.text = mBook.volumeInfo.title
         fragment_book_details_tv_description.text = mBook.volumeInfo.description
+
+        // PRICE
+        if (mBook.saleInfo.listPrice != null) {
+            fragment_book_details_tv_price.text =
+                "${mBook.saleInfo.listPrice.amount}${mBook.saleInfo.listPrice.currencyCode}"
+        }
+
+        // PDF
+        if (mBook.accessInfo.webReaderLink.isNotEmpty()) {
+            fragment_book_details_button_read.visibility = View.VISIBLE
+        } else {
+            fragment_book_details_button_read.visibility = View.GONE
+        }
+    }
+
+    /**
+     * ON CLICK
+     */
+    @OnClick(R.id.fragment_book_details_button_read)
+    fun onClickRead() {
+        Utils.openUrl(context!!, mBook.accessInfo.webReaderLink)
     }
 
     companion object {

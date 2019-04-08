@@ -33,7 +33,7 @@
                             tools:context="es.jarroyo.teamwork.ui.projectDetails.fragment.ProjectDetailsFragment">
 
 
-                <!-- IMAGE VIEW PROJET -->
+                <!-- IMAGE VIEW BOOK -->
                 <ImageView
                         android:id="@+id/fragment_book_details_iv_project"
                         android:layout_centerHorizontal="true"
@@ -42,7 +42,7 @@
                         android:transitionName="transitionIVDetails"
                         android:layout_marginBottom="@dimen/general_space"/>
 
-                <!-- TITLE PROJET -->
+                <!-- TITLE BOOK -->
                 <TextView
                         android:id="@+id/fragment_book_details_tv_title"
                         android:layout_width="wrap_content"
@@ -53,6 +53,18 @@
                         android:textStyle="bold"
                         android:textColor="@color/white"
                         android:layout_below="@+id/fragment_book_details_iv_project"
+                        android:layout_height="wrap_content"/>
+
+                <!-- PRICE -->
+                <TextView
+                        android:id="@+id/fragment_book_details_tv_price"
+                        android:layout_width="wrap_content"
+                        android:textSize="15sp"
+                        android:transitionName="transitionTVProject"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorAccent"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
                         android:layout_height="wrap_content"/>
 
             </RelativeLayout>
@@ -134,5 +146,15 @@
 
         </RelativeLayout>
     </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fragment_book_details_button_read"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/fab_margin"
+            app:layout_anchor="@id/fragment_book_details_appbar_layout"
+            app:layout_anchorGravity="bottom|end"
+            app:srcCompat="@drawable/ic_read_pdf_white_24dp"/>
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
 

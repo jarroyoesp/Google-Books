@@ -1,7 +1,6 @@
 package es.jarroyo.books.utils
 
 import android.content.Context
-import com.microhealth.lmc.utils.NetworkSystemAbstract
 
 open class NetworkSystem(private val appContext : Context): NetworkSystemAbstract() {
 

@@ -1,8 +1,8 @@
 package es.jarroyo.books.ui.base
 
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
 import android.view.MenuItem
+import androidx.appcompat.app.AppCompatActivity
 import butterknife.ButterKnife
 import es.jarroyo.books.app.di.component.ApplicationComponent
 import es.jarroyo.books.app.navigator.Navigator
@@ -51,7 +51,17 @@ abstract class BaseActivity : AppCompatActivity() {
     }
 
     override fun onPause() {
+        navigator.currentActivity = null
         super.onPause()
+    }
+
+    /*override fun onStop() {
+        super.onStop()
         navigator.currentActivity = null
     }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        navigator.currentActivity = null
+    }*/
 }

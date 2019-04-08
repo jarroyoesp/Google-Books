@@ -16,7 +16,6 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
 
-
         <activity
                 android:name=".ui.booksList.activity.BooksListActivity"
                 android:theme="@style/AppTheme.NoActionBar">
@@ -26,11 +25,10 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-
-        <activity android:name=".ui.bookDetails.activity.BookDetailsActivity"
-                  android:theme="@style/AppTheme.NoActionBar">
+        <activity
+                android:name=".ui.bookDetails.activity.BookDetailsActivity"
+                android:theme="@style/AppTheme.NoActionBar">
         </activity>
-
     </application>
 
 </manifest>

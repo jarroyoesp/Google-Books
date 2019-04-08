@@ -1,17 +1,18 @@
 package es.jarroyo.books.data.source.network
 
 import android.content.Context
-import com.microhealth.lmc.utils.NetworkSystemAbstract
 import es.jarroyo.books.data.factory.BooksListFactory
 import es.jarroyo.books.domain.model.Response
 import es.jarroyo.books.domain.model.books.BooksListResponse
+import es.jarroyo.books.utils.NetworkSystemAbstract
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient
 import java.io.IOException
 
 
 class NetworkDataSource(private val context: Context,
-                        private val networkSystem: NetworkSystemAbstract) : INetworkDataSource(networkSystem) {
+                        private val networkSystem: NetworkSystemAbstract
+) : INetworkDataSource(networkSystem) {
     /**
      * GET BOOKS LIST
      */

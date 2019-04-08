@@ -5,7 +5,6 @@ import android.content.Context
 import android.content.Intent
 import androidx.test.InstrumentationRegistry
 import androidx.test.rule.ActivityTestRule
-import es.jarroyo.books.data.source.disk.DiskDataSource
 
 class BaseActivityRule<A : Activity>(activityClass: Class<A>, initialTouchMode: Boolean, launchActivity: Boolean) : ActivityTestRule<A>(activityClass, initialTouchMode, launchActivity) {
 
@@ -28,7 +27,6 @@ class BaseActivityRule<A : Activity>(activityClass: Class<A>, initialTouchMode: 
     override fun afterActivityFinished() {
         // super.afterActivityFinshed()
         // Clean up mocks
-        DiskDataSource(getContext()).deleteAllTables()
     }
 
     fun launchActivity() {

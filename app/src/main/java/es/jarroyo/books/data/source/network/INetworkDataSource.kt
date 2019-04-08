@@ -1,8 +1,8 @@
 package es.jarroyo.books.data.source.network
 
-import com.microhealth.lmc.utils.NetworkSystemAbstract
 import es.jarroyo.books.domain.model.Response
 import es.jarroyo.books.domain.model.books.BooksListResponse
+import es.jarroyo.books.utils.NetworkSystemAbstract
 
 open abstract class INetworkDataSource(private val networkSystem: NetworkSystemAbstract) {
 

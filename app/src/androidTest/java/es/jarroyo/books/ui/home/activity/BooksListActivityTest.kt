@@ -1,18 +1,13 @@
 package es.jarroyo.books.ui.home.activity
 
 import androidx.test.espresso.Espresso.onView
-import androidx.test.espresso.Espresso.pressBack
-import androidx.test.espresso.action.ViewActions.click
 import androidx.test.espresso.assertion.ViewAssertions.matches
-import androidx.test.espresso.matcher.ViewMatchers.*
+import androidx.test.espresso.matcher.ViewMatchers.isDisplayed
+import androidx.test.espresso.matcher.ViewMatchers.withId
 import androidx.test.runner.AndroidJUnit4
 import es.jarroyo.books.R
 import es.jarroyo.books.app.baseTest.BaseActivityRule
-import es.jarroyo.books.data.source.disk.DiskDataSource
-import es.jarroyo.books.domain.model.location.WeatherLocationFactory
-import es.jarroyo.books.domain.model.location.toEntity
-import es.jarroyo.books.domain.model.user.UserFactory
-import es.jarroyo.books.ui.utils.RecyclerViewMatcher
+import es.jarroyo.books.ui.booksList.activity.BooksListActivity
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
@@ -21,21 +16,16 @@ import org.junit.runner.RunWith
 
 
 @RunWith(AndroidJUnit4::class)
-class HomeActivityTest {
+class BooksListActivityTest {
 
     @Rule
     @JvmField
-    var mActivityRule = BaseActivityRule(HomeActivity::class.java, true, false)
+    var mActivityRule = BaseActivityRule(BooksListActivity::class.java, true, false)
 
 
     @Before
     fun insertData() {
-        // Insert USER ENTITY Test
-        DiskDataSource(mActivityRule.getContext()).insertUser(UserFactory.createUserTest().toEntity())
 
-        // Insert in DB a wetaherLocation
-        val weaherLocationEntity = WeatherLocationFactory.createCurrentLocationTest().toEntity()
-        DiskDataSource(mActivityRule.getContext()).insertWeatherLocation(weaherLocationEntity)
     }
 
 
@@ -43,13 +33,11 @@ class HomeActivityTest {
     fun should_request_locations_and_show_location_on_start(){
         mActivityRule.launchActivity()
 
-        // Check RV shows location test (Zaragoza)
-        onView(withRecyclerView(R.id.fragment_home_rv).atPosition(0))
-            .check(matches(hasDescendant(withText(WeatherLocationFactory.locationTest))))
+        onView(withId(R.id.fragment_books_list_searchview)).check(matches(isDisplayed()))
 
     }
 
-    @Test
+    /*@Test
     fun GIVEN_a_location_saved_WHEN_click_in_weather_THEN_show_forecast() {
         mActivityRule.launchActivity()
 
@@ -80,5 +68,5 @@ class HomeActivityTest {
 
     fun withRecyclerView(recyclerViewId: Int): RecyclerViewMatcher {
         return RecyclerViewMatcher(recyclerViewId)
-    }
+    }*/
 }
