@@ -129,7 +129,7 @@
 
 # Application classes that will be serialized/deserialized over Gson
 -keep class com.google.gson.examples.android.model.** { *; }
--keep class com.microhealth.mhresearch.domain.model.** { *; }
+-keep class es.jarroyo.books.domain.model.** { *; }
 
 # Prevent proguard from stripping interface information from TypeAdapterFactory,
 # JsonSerializer, JsonDeserializer instances (so they can be used in @JsonAdapter)

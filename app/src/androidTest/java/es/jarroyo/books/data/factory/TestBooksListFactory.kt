@@ -1,41 +1,20 @@
-package es.jarroyo.books.data.source.network
+package es.jarroyo.books.data.factory
 
+import android.content.Context
 import com.google.gson.Gson
-import es.jarroyo.books.domain.model.Response
 import es.jarroyo.books.domain.model.books.BooksListResponse
-import es.jarroyo.books.utils.NetworkSystemAbstract
-import okhttp3.Interceptor
-import okhttp3.OkHttpClient
-import java.io.IOException
 
+class TestBooksListFactory {
 
-class NetworkDataSource(private val networkSystem: NetworkSystemAbstract) : INetworkDataSource(networkSystem) {
-
-    override suspend fun getBooksList(query: String): Response<BooksListResponse> {
+    fun createBooksListResponse1(context: Context): BooksListResponse {
         var gson = Gson()
         val json = response
-        return Response.Success(gson?.fromJson(json, BooksListResponse::class.java))
+        return gson?.fromJson(json, BooksListResponse::class.java)
     }
-
-    var okHttpClient = OkHttpClient.Builder()
-        .addInterceptor(object : Interceptor {
-            @Throws(IOException::class)
-            override fun intercept(chain: Interceptor.Chain): okhttp3.Response {
-                val request = chain.request()
-                val response = chain.proceed(request)
-
-                // todo deal with the issues the way you need to
-                if (response.code() == 500) {
-                    return response
-                }
-
-                return response
-            }
-        })
-        .build()
 
     companion object {
 
+        val TEST_TITLE_POS_1 = "Test title 1"
 
         val response = "{\n" +
                 " \"kind\": \"books#volumes\",\n" +
@@ -47,7 +26,7 @@ class NetworkDataSource(private val networkSystem: NetworkSystemAbstract) : INet
                 "   \"etag\": \"UNVYHgkACDc\",\n" +
                 "   \"selfLink\": \"https://www.googleapis.com/books/v1/volumes/uUOBPgXQtvUC\",\n" +
                 "   \"volumeInfo\": {\n" +
-                "    \"title\": \"Harry Potter y la Orden del Fénix\",\n" +
+                "    \"title\": "+ TEST_TITLE_POS_1+",\n" +
                 "    \"authors\": [\n" +
                 "     \"J.K. Rowling\"\n" +
                 "    ],\n" +
@@ -143,5 +122,4 @@ class NetworkDataSource(private val networkSystem: NetworkSystemAbstract) : INet
                 "  } ]\n" +
                 "}"
     }
-
 }

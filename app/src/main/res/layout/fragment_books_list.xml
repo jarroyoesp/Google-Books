@@ -10,6 +10,7 @@
             android:id="@+id/fragment_books_list_searchview"
             android:layout_width="match_parent"
             android:iconifiedByDefault="false"
+            android:imeOptions="actionSearch"
             android:focusable="true"
             app:queryHint="@string/books_search_hint"
             android:layout_height="wrap_content"></androidx.appcompat.widget.SearchView>
