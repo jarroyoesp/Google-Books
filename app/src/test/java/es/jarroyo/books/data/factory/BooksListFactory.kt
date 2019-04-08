@@ -1,11 +1,12 @@
 package es.jarroyo.books.data.factory
 
+import android.content.Context
 import com.google.gson.Gson
 import es.jarroyo.books.domain.model.books.BooksListResponse
 
 object BooksListFactory {
 
-    suspend fun createBooksListResponse1(): BooksListResponse {
+    fun createBooksListResponse1(context: Context): BooksListResponse {
         var gson = Gson()
         val json = response
         return gson?.fromJson(json, BooksListResponse::class.java)

@@ -52,10 +52,10 @@ class BookDetailsFragment : BaseFragment() {
 
     private fun configView() {
         // Image
-        if (mBook.volumeInfo.imageLinks == null) {
+        if (mBook.volumeInfo?.imageLinks == null) {
             fragment_book_details_iv_project.visibility = View.GONE
         } else {
-            var url = mBook.volumeInfo.imageLinks?.thumbnail!!.replace(
+            var url = mBook.volumeInfo?.imageLinks?.thumbnail!!.replace(
                 "http",
                 "https"
             )
@@ -65,17 +65,17 @@ class BookDetailsFragment : BaseFragment() {
         }
 
         // TITLE & DESCRIPTION
-        fragment_book_details_tv_title.text = mBook.volumeInfo.title
-        fragment_book_details_tv_description.text = mBook.volumeInfo.description
+        fragment_book_details_tv_title.text = mBook.volumeInfo?.title
+        fragment_book_details_tv_description.text = mBook.volumeInfo?.description
 
         // PRICE
-        if (mBook.saleInfo.listPrice != null) {
+        if (mBook.saleInfo?.listPrice != null) {
             fragment_book_details_tv_price.text =
-                "${mBook.saleInfo.listPrice.amount}${mBook.saleInfo.listPrice.currencyCode}"
+                "${mBook.saleInfo?.listPrice?.amount}${mBook.saleInfo?.listPrice?.currencyCode}"
         }
 
         // PDF
-        if (mBook.accessInfo.webReaderLink.isNotEmpty()) {
+        if (mBook.accessInfo?.webReaderLink != null && mBook.accessInfo?.webReaderLink!!.isNotEmpty()) {
             fragment_book_details_button_read.visibility = View.VISIBLE
         } else {
             fragment_book_details_button_read.visibility = View.GONE
@@ -87,7 +87,7 @@ class BookDetailsFragment : BaseFragment() {
      */
     @OnClick(R.id.fragment_book_details_button_read)
     fun onClickRead() {
-        Utils.openUrl(context!!, mBook.accessInfo.webReaderLink)
+        Utils.openUrl(context!!, mBook.accessInfo?.webReaderLink!!)
     }
 
     companion object {
